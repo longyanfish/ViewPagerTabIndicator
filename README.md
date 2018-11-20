@@ -1,3 +1,4 @@
 # ViewPagerTabIndicator
 该项目使用了一个第三方插件完成了一个软件主页面，这个第三方库是从githup上下载的，应用这个库来完成一个软件的主面板。有两层indicator,
 下层indicator包含四个选项，一个选项控制一个页面，可以切换四个页面，上层indicator可以自由切换下层某一个选项的所有页面。
+在实际的编写代码中，下层indicator中的indicator中的一个选项tab包含的不是一个页面，是一个viewPager+一个上层indicator。
